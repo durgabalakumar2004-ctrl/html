@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+            <h1 align="center" style="color: rgb(227, 231, 227); background-color: grey; width: fit-content;"> BIO-DATA </h1>
+
+<div  style="height: auto; width: 50%; background-color: rgb(123, 184, 143); text-align: left; padding-left: 2%;" >
+    <form style="padding-top: 4%; padding-bottom:4%; padding-right: 2%;">
+        <label for="firstname">First name :</label>
+        <input type="text" 
+                placeholder="Enter your good name" 
+                id="firstname"
+                name="firstname"
+                minlength="3"
+                maxlength="12">
+    <br>
+    <br>
+        <label for="Age">Age:</label>
+        <input type="number"
+        placeholder="Age"
+        id="Age"
+        name="Age"
+        min="18"
+        max="35">
+    <br>
+    <br>
+        <label for="">Gender:</label>
+
+        <input type="radio" name="gender" id="male" value="male"/>
+        <label for="male">male</label>
+
+        <input type="radio"  name="gender" id="female" value="female"/>
+        <label for="female">female</label>
+
+        <input type="radio" name="gender" id="others" value="others"/>
+        <label for="others">others</label>
+    <br>
+    <br>
+    <label for=""> Skills:</label>
+
+        <input type="checkbox" name="skills" id="cooking" value="cooking"/>
+        <label for="cooking">cooking</label>
+
+        <input type="checkbox"  name="skills" id="cleaning" value="cleaning"/>
+        <label for="cleaning">cleaning</label>
+
+        <input type="checkbox" name="skills" id="vessel washing" value="vessel washing"/>
+        <label for="vessel washing">vessel washing</label>
+    <br>
+    <br>
+
+    <label for="Job">Choose the Job:</label>
+    <select name="Job" id="Job">
+
+    <option value="" disabled selected hidden>Select the job</option>
+
+    <option value="Software industry">Software industry</option>
+    <option value="Bussiness">Bussiness</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Others">Others</option>
+    </select>
+    <br>
+    <br>
+    <hr>
+ <h4>Educational qualification</h4>
+    <label for="Degree">Degree</label>
+    <select name="Degree" id="Degree">
+
+    <option value="" disabled selected hidden>Select the degree</option>
+
+    <option value="B.TECH">B.TECH</option>
+    <option value="B.E">B.E</option>
+    <option value="MCA">MCA</option>
+    <option value="MSC">MSC</option>
+    <option value="Others">Others</option>
+    </select>
+    <br>
+    <br>
+
+    <label for="Branch">Branch</label>
+    <input type="text" name="Branch" id="Branch" placeholder="enter your branch"/>
+<hr>    <br>
+    <br>
+
+    <label for="Salary"> Salary : ₹</label>
+    <input text="Salary" id="Salary" name="Salary" placeholder="enter your salary">
+    <br>
+    <br>
+
+    <label for="Zodiac signature"> Zodiac signature : ♌️</label>
+    <select name="Zodiac signature" id="Zodiac signature">
+    <option value="" selected hidden disabled> select your Zodiac sign</option>
+    <option value="Scorpio">Scorpio</option>
+    <option value="Cancer">Cancer</option>
+    <option value="sagittarius">Sagittarius</option>
+    <option value="Libra">Libra</option>
+    </select>
+    <br>
+    <br>
+
+    <label for="D.O.B">D.O.B</label>
+    <input type="date" ID="D.O.B" name="D.O.B" min="1996-12-31" max="2026-07-26">
+    <BR>
+    <BR>
+
+    <label for="Religion">Religion</label>
+    <input type="radio" name="Religion" id="Hindu" value="Hindu"/>
+    <label for="Hindu">Hindu</label>
+    <input type="radio" name="Religion" id="Muslim" value="Muslim"/>
+    <label for="Muslim">Muslim</label>
+    <input type="radio" name="Religion" id="Christian" value="Christian"/>
+    <label for="Christian">Christian</label>
+    <br>
+    <br>
+
+    <label for="Contact No:">Contact No:📞</label>
+    <input type="tel" name="Contact No" id="Contact No" placeholder="+91 9876543210" pattern="[0-9]{10}">
+    <br>
+    <br>
+
+    <label for="Instagram profile:"> Instagram profile:</label>
+    <input type="url" placeholder="https://www.instagram.com" name="Instagram profile" id="Instagram profile">
+    <br>
+    <br>
+
+    
+    <fieldset><legend>Address:</legend>
+    <input type="text" name="Address" id="Address" placeholder="Enter door no">
+    <input type="text"name="Address" id="Address" placeholder="Enter Street name">
+    <input type="text"name="Address" id="Address" placeholder="Enter locality">
+    <br>
+    <br>
+    <input type="text"name="Address" id="Address" placeholder="Enter pincode" pattern="[0-9]{6}">
+    <input type="text"name="Address" id="Address" placeholder="Enter district">
+    <input type="text"name="Address" id="Address" placeholder="Enter State">
+    </fieldset>
+    <br>
+    <br>
+
+    <label for="Aadhar card No:">Aadhar card No:</label>
+    <input type="text" id="Aadhar card No:" name="Aadhar card No:" minlength="0" maxlength="4" placeholder="enter the first 4 digits">
+    <input type="text" id="Aadhar card No:" name="Aadhar card No:" minlength="0" maxlength="4" placeholder="enter the middle 4 digits">
+    <input type="text" id="Aadhar card No:" name="Aadhar card No:" minlength="0" maxlength="4" placeholder="enter the last 4 digits" pattern="[0-9]{4}">
+    <BR>
+    <BR>
+
+    <label for="Email ID:">Email ID</label>
+    <input type="email" name="Email ID" id="Email ID" placeholder="enter your mail id ">
+    <br>
+    <br>
+    <label for="Assets">Assets</label>
+    <input type="number" name="Assets" id=""Assets  placeholder="enter your assets value">
+    <br>
+    <br>
+    
+    <label for="Siblings">Siblings</label>
+    <input type="number" id="Siblings" name="Siblings" placeholder="enter your siblings count" pattern="[0-9]">
+    <br>
+    <br>
+    
+    <label for="Marrital status">Marrital status</label>
+    <input type="radio" name="Marrital status" id="Married" value="Married"/>
+    <label for="Married">Married</label>
+    <input type="radio" name="Marrital status" id="Unmarried" value="Unmarried"/>
+    <label for="Unmarried">Unmarried</label>
+
+<br>
+<br>
+<label for="Is Divorced">Is Divorced</label>
+<input type="radio" name="Is Divorced" id="Yes" value="Yes">
+<label for="Yes">Yes</label>
+<input type="radio" name="Is Divorced" id="No" value="N0">
+<label for="No">No</label>
+<BR>
+<BR>
+<label for="Picture:">Picture:</label>
+<input type="file" accept="">
+<br>
+<br>
+
+<input type="checkbox">ALL THE INFORMATIONS ARE TRUE TO THE BEST OF MY KNOWLEDGE
+<BR>
+<BR>
+
+<input type="submit">
+    </form>
+</div>
+</center>
+</body>
+</html>
